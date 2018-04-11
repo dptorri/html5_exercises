@@ -1,0 +1,39 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.gallery-wrapper {
+  background-color: yellow;
+  width: 100%;
+}
+
+.thumbnail {
+  display:inline-block;
+  width:40%;
+  height:200px;
+  background-color: grey;
+  margin:10px;
+}
+@media (min-width: 800px) {
+  .thumbnail{
+    width:200px;
+    height:200px;
+  }
+} */
+
+div {
+  width: 100px;
+  float: left;
+}
+
+#one {
+background-color: red;  
+}
+
+#two {
+  background-color: blue;
+}
