@@ -25,7 +25,8 @@ body {
   }
 } */
 
-div {
+/* float property on divs
+ div {
   width: 100px;
   float: left;
 }
@@ -36,4 +37,21 @@ background-color: red;
 
 #two {
   background-color: blue;
+} */
+
+img {
+  width: 30%;
+  float: left;
+  margin:1.66%;
+}
+
+p {
+  font-family: 'Gugi', cursive;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  margin:1.66%;
+  border-bottom: 3px solid grey;
+  padding-bottom:1rem;
+  width: 30%;
 }
