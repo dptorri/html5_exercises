@@ -1,0 +1,45 @@
+*{
+  border:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align:center;
+}
+.wrapper{
+  width:158px;
+  height: 150px;
+  margin: auto; 
+}
+.square{
+  display: inline-block;
+  width:50px;
+  height: 50px;
+  background-color: red;
+  border: 3px solid black;
+}
+
+.top-right{
+  border-top: red;
+  border-right: red;
+}
+
+.top-left{
+  border-top: red;
+  border-left: red;
+}
+
+.bottom-right{
+  border-bottom: red;
+  border-right: red;
+}
+
+.bottom-left{
+  border-bottom: red;
+  border-left: red;
+}
+
+.clean {
+  border: 3px solid red;
+}
