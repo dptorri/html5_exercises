@@ -8,10 +8,67 @@
 </head>
 <body>
   <h1>Sign In</h1>
-  <form action="/sign-in-url" method="post">
+  <form>
     <input type="text">
     <input type="password" name="" id="">
     <button>Login</button>
   </form>
+
+  <h2>Login</h2>
+  <form>
+    <label for="username">Username</label>
+    <input id="username" type="text" name="username" placeholder="username">
+    <label for="password">Password</label>
+    <input id="password" type="password"  name="password" placeholder="password">
+    <input type="submit">
+  </form>
+<p>What pet do you prefer?</p>
+  <form action="">
+    <label for="pet">Dogs</label>
+    <input type="radio" name="dog" id="dog">
+    <label for="pet">Cats</label>
+    <input type="radio" name="cat" id="cat">
+  </form>
+
+  <p>What city do you like?</p>
+  <select name="city" id="city">
+    <option value="1">Paris</option>
+    <option value="0">Rome</option>
+  </select>
+  <form action="">
+  <h2>Register</h2>
+  <label for="firstname">First Name</label>
+  <input id="firstname" type="text" required>
+  <label for="lastname">Last Name</label>
+  <input id="lastname" type="text" required>
+  <br>
+  <label for="male">Male</label>
+  <input type="radio" name="male" id="male">
+  <label for="female">Female</label>
+  <input type="radio" name="female" id="female">
+  <label for="other">Other</label>
+  <input type="radio" name="other" id="other">
+  <br>
+  <label for="email">email</label>
+  <input type="email" name="email" id="email" required>
+  <label for="password">password</label>
+  <input 
+  type="password" 
+  name="password" 
+  id="password"
+  inputmode="text" 
+  minlength="4"
+  maxlength="8"
+  size="8"
+  required>
+  <br>
+  <label for="birthday">birthday</label>
+  <input id="birthday" type="date" value="1990-06-01">
+  <br>
+  <input type="checkbox" name="terms" id="terms">
+  <label for="terms">I agree to the terms and conditions</label>
+  <br>
+  <input id="submit" type="submit" value="Submit" required>
+</form>
 </body>
 </html>
