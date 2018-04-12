@@ -140,11 +140,7 @@ a {
   padding: 0 5px;
 }
 
-
-
-
-
-
+/* Logo */
 
 .home #heading .logos {
   z-index: 998;
@@ -162,4 +158,52 @@ a {
 #heading .logos {
   clear: both;
   overflow: hidden;
+}
+
+/* bg_content navigation content */
+
+.home #content {
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.slider_image {
+  background-image: url('../img/dummyimage.jpg');
+  background-color: #f4f4f2;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 414px;
+}
+
+/* portlet */
+.portlet {
+  float: left;
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.portlet-question {
+  float: left;
+  width:auto;
+  height: 200px;
+  text-align: right;
+  padding: 10px;
+
+}
+
+
+.portlet-image {
+  float: left;
+  width:320px;
+  padding: 10px;
+}
+
+
+.portlet-description {
+  float: left;
+  width:40%;
+  padding: 10px;
+  height: 200px;
 }
