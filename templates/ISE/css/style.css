@@ -40,7 +40,7 @@ a {
  .head-user {
   float: right;
   clear: right;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: purple;
 }
 
@@ -61,3 +61,42 @@ a {
   padding-right: 20px;
   padding-left: 10px;
 } 
+
+#redes_sociales {
+  position: relative;
+  top: 2px;
+  float: right;
+  height: 30px;
+  padding-top: 4px;
+}
+
+#redes_sociales a {
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+#facebook {
+  background: url('../img/svg/facebook.svg') no-repeat center center;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
+
+#youtube {
+  background: url('../img/svg/youtube.svg') no-repeat center center;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
+#twitter {
+  background: url('../img/svg/twitter-square.svg') no-repeat center center;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
+#instagram {
+  background: url('../img/svg/instagram.svg') no-repeat center center;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
