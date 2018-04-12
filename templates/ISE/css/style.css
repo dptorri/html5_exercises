@@ -40,13 +40,13 @@ a {
  .head-user {
   float: right;
   clear: right;
-  padding: 5px 0;
+/*   padding: 5px 0; */
   background-color: purple;
 }
 
 #bt_out {
   float: left;
-  margin: 0 20px 0 30px;
+  margin: 10px 20px 0 30px;
   font: bold 16px 'Myriad Pro',sans-serif;
   color: #009fe3;
   background-color: ghostwhite
@@ -67,7 +67,7 @@ a {
   top: 2px;
   float: right;
   height: 30px;
-  padding-top: 4px;
+  padding: 4px 20px;
 }
 
 #redes_sociales a {
@@ -100,3 +100,4 @@ a {
   width: 28px;
   display: inline-block;
 }
+
