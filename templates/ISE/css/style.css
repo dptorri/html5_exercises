@@ -1,5 +1,14 @@
 .wrapper {
   margin:0;
   padding:0;
-  background-color: grey;
+  background-color: lightgrey;
+}
+
+#skip-to-content {
+  display: none;
+}
+
+a {
+  color: #009fe3;
+  text-decoration: none;
 }
