@@ -1,3 +1,7 @@
+div {
+  display: block;
+}
+
 .wrapper {
   margin:0;
   padding:0;
@@ -12,3 +16,48 @@ a {
   color: #009fe3;
   text-decoration: none;
 }
+
+/* just styles */
+.nav_sup {
+  background: #ff1;/* #fff */
+  height: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* restricts size */
+.nav_sup_content {
+  max-width: 1200px;
+  padding: 0;
+}
+
+ .head-user {
+  padding: 0;
+  position: relative;
+  z-index: 15;
+  background-color: khaki;
+}
+ 
+ .head-user {
+  float: right;
+  clear: right;
+  padding: 10px 0;
+  background-color: purple;
+}
+
+#bt_out {
+  float: left;
+  margin: 0 20px 0 30px;
+  font: bold 16px 'Myriad Pro',sans-serif;
+  color: #009fe3;
+  background-color: ghostwhite
+}
+
+#sign-in {
+  float: left;
+  font: bold 16px sans-serif; 
+  color: #009fe3;
+  text-decoration: none;
+  background: url('../img/svg/angle-right.svg') no-repeat 100%;
+  padding-right: 20px;
+  padding-left: 10px;
+} 
