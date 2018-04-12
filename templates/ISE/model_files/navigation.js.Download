@@ -1,0 +1,5 @@
+$(document).ready(function(){
+	  $(".nav-control a.menu").click(function(){
+	    $(".nav-main").toggle();
+	  });
+});
