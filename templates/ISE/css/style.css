@@ -178,32 +178,111 @@ a {
 }
 
 /* portlet */
-.portlet {
-  float: left;
-  background-color: lightgreen;
+.portlet-body{
+  background-color: dodgerblue;
   width: 100%;
+  height: 210px;
+}
+.portlet {
+  background-color: red;
+  width: 100%;
+  height: 302px;
+}
+
+.portlet_courses {
+  background-color: red;
+  width: 100%;
+  height: 350px;
 }
 
 .portlet-question {
   float: left;
-  width:auto;
+  width:20%;
   height: 200px;
   text-align: right;
-  padding: 10px;
-
+  background-color: lightcoral;
+  border-right: 1px solid blue;
 }
 
+.portlet-question2 {
+  float: left;
+  width:20%;
+  height: 350px;
+  text-align: right;
+  background-color: lightcoral;
+  border-right: 1px solid blue;
+}
+
+.portlet-question p {
+  color: #009fe3;
+  font: bold 16px 'Myriad Pro',sans-serif;
+}
+
+.portlet-question2 p {
+  color: #009fe3;
+  font: bold 16px 'Myriad Pro',sans-serif;
+}
 
 .portlet-image {
   float: left;
-  width:320px;
-  padding: 10px;
+  width:330px;
+  margin-left: 10px;
 }
-
 
 .portlet-description {
   float: left;
   width:40%;
-  padding: 10px;
+/*   margin-left: 1%; */
+/*   padding: 10px; */
   height: 200px;
+  background-color: lightseagreen;
+
 }
+
+.portlet-description p {
+  font: bold 12px 'Myriad Pro',sans-serif;
+
+}
+
+/* .portlet-course-image {
+  float: left;
+  width:300px;
+  height: 200px;
+} */
+
+.home-courses-container {
+  width: 300px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  border: 1px solid #c1c1c1;
+  border-bottom: 0;
+  border-top: 0;
+  min-width: 296px;
+  max-width: 297.2px;
+  height: 350px;
+  background-color: black; 
+}
+
+.home-courses-container h4, p {
+  color: white;
+  padding: 0;
+  margin:0;
+}
+
+.portlet-course-link {
+  clear: both;
+}
+.portlet-course-link a {
+  font: bold 16px 'Myriad Pro',sans-serif;
+  padding: 7px 0;
+  background-color: #009fe3;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+
+
