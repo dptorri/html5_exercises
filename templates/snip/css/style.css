@@ -1,27 +1,67 @@
+/* Clearfix Float Hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+
+
 body {
   background-color: grey;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+
+div {
+  display: block;
+}
+
 .row {
-width: 100%;
-background-color: darkgreen;
+  background-color: darkgreen;
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .small-paragraph {
-width: 30%;
-background-color: green;
-float: left;
+  width: 20%;
+  background-color: green;
+  float: left;
+  clear: both;
 }
 
-#image {
-  height: 20vh;
-  max-height: 30vh;
-  width: 30%;
-  background: url('../img/placeholder_course.png');
+.image {
   float: left;
 }
 
-.large-paragraph {
-  width: 30%;
+.image img {
+  max-height: 200px;
+  max-width: 320px;
+  width: 100% !important;
+  background: url('../img/placeholder_course.png');
+  clear: both;
+}
+
+.large-paragraph p{
+  width: 40%;
   background-color: burlywood;
   float: left;
 }
