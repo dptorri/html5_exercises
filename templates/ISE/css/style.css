@@ -158,6 +158,7 @@ a {
 #heading .logos {
   clear: both;
   overflow: hidden;
+  margin-left: 200px;
 }
 
 /* bg_content navigation content */
@@ -174,7 +175,7 @@ a {
   background-color: #f4f4f2;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  height: 414px;
+  height: 300px;
 }
 
 /* portlet */
@@ -184,7 +185,7 @@ a {
   height: 210px;
 }
 .portlet {
-  background-color: red;
+  background-color: lightsalmon;
   width: 100%;
   height: 302px;
 }

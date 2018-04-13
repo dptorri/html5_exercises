@@ -1,0 +1,27 @@
+body {
+  background-color: grey;
+}
+.row {
+width: 100%;
+background-color: darkgreen;
+}
+
+.small-paragraph {
+width: 30%;
+background-color: green;
+float: left;
+}
+
+#image {
+  height: 20vh;
+  max-height: 30vh;
+  width: 30%;
+  background: url('../img/placeholder_course.png');
+  float: left;
+}
+
+.large-paragraph {
+  width: 30%;
+  background-color: burlywood;
+  float: left;
+}
