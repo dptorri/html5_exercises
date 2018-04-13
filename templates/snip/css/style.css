@@ -20,7 +20,7 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-
+/* General Setup */
 
 body {
   background-color: grey;
@@ -29,21 +29,20 @@ body {
   padding: 0;
 }
 
-
 div {
   display: block;
 }
 
+/* Desktop layout */
 .row {
   background-color: darkgreen;
-  max-width: 1000px;
   width: 90%;
   margin: 0 5%;
 }
 
 .small-paragraph {
   width: 20%;
-  background-color: green;
+  background-color: rgb(28, 168, 28);
   float: left;
   clear: both;
 }
@@ -55,13 +54,41 @@ div {
 .image img {
   max-height: 200px;
   max-width: 320px;
-  width: 100% !important;
+ /*  width: 100% !important; */
   background: url('../img/placeholder_course.png');
   clear: both;
 }
 
-.large-paragraph p{
+.large-paragraph {
   width: 40%;
   background-color: burlywood;
   float: left;
+}
+
+@media (max-width:863px) {
+  .row {
+    background-color: blue;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.small-paragraph {
+  width: 100%;
+  background-color: rgb(28, 168, 28);
+  float: left;
+  clear: both;
+  text-align: center;
+}
+  .image {
+    width: 80%;
+    margin: 0 10%;
+  }
+  img {
+    width: 80%;
+    margin: 0 10%; 
+  }
+  .large-paragraph {
+    width: 80%;
+    padding: 0 10%;
+  }
 }

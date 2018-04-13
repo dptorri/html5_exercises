@@ -1,3 +1,33 @@
+/* Clearfix Float Hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
 div {
   display: block;
 }
@@ -42,6 +72,14 @@ a {
   clear: right;
 /*   padding: 5px 0; */
   background-color: purple;
+}
+
+
+body {
+  background-color: grey;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #bt_out {
@@ -179,110 +217,76 @@ a {
 }
 
 /* portlet */
-.portlet-body{
-  background-color: dodgerblue;
-  width: 100%;
-  height: 210px;
-}
-.portlet {
-  background-color: lightsalmon;
-  width: 100%;
-  height: 302px;
+
+.row {
+  background-color: darkgreen;
+  width: 80%;
+  margin: 0 10%;
 }
 
-.portlet_courses {
-  background-color: red;
-  width: 100%;
-  height: 380px;
-}
-
-.portlet-question {
+.small-paragraph {
+  width: 20%;
+  background-color: green;
   float: left;
-  width:20%;
-  height: 200px;
-  text-align: right;
-  background-color: lightcoral;
-  border-right: 1px solid blue;
-}
-
-.portlet-question2 {
-  float: left;
-  width:20%;
-  height: 362px;
-  text-align: right;
-  background-color: lightcoral;
-  border-right: 1px solid blue;
-}
-
-.portlet-question p {
-  color: #009fe3;
-  font: bold 16px 'Myriad Pro',sans-serif;
-}
-
-.portlet-question2 p {
-  color: #009fe3;
-  font: bold 16px 'Myriad Pro',sans-serif;
-}
-
-.portlet-image {
-  float: left;
-  width:330px;
-  margin-left: 10px;
-}
-
-.portlet-description {
-  float: left;
-  width: 446px;
-/*   margin-left: 1%; */
-/*   padding: 10px; */
-  height: 200px;
-  background-color: lightseagreen;
-
-}
-
-.portlet-description p {
-  font: bold 12px 'Myriad Pro',sans-serif;
-
-}
-
-/* .portlet-course-image {
-  float: left;
-  width:300px;
-  height: 200px;
-} */
-
-.home-courses-container {
-  width: 250px;
-  margin-left: 10px;
-  float: left;
-  border: 1px solid #c1c1c1;
-  border-bottom: 0;
-  border-top: 0;
-/*   min-width: 296px;
-  max-width: 297.2px; */
-  height: 362px;
-  background-color: black; 
-}
-
-.home-courses-container h4, p {
-  color: white;
-  padding: 0;
-  margin:0;
-}
-
-.portlet-course-link {
   clear: both;
 }
-.portlet-course-link a {
-  font: bold 16px 'Myriad Pro',sans-serif;
-  padding: 7px 0;
-  background-color: #009fe3;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
+
+.image {
+  float: left;
 }
 
+.image img {
+  max-height: 200px;
+  max-width: 320px;
+  width: 100% !important;
+  background: url('../img/placeholder_course.png');
+  clear: both;
+}
 
+.large-paragraph {
+  width: 40%;
+  background-color: burlywood;
+  float: left;
+}
 
+@media (max-width: 1000px) {
+  .row {
+    width:100%;
+  }
+  .small-paragraph {
+    width:40%;
+  }
+  .image img{
+    width:40%;
+  }
+
+  .large-paragraph p {
+    width:%;
+    margin: 0 10%;
+  }
+}
+
+@media (max-width:600px) {
+  .row {
+    width:100%;
+    margin: 0;
+  }
+  .small-paragraph {
+    width:80%;
+    margin: 0 10%;
+  }
+  .image{
+    width:100%;
+    background-color: azure;
+  }
+  .image img{
+    width:80%;
+    margin: 0 20%;
+  }
+
+  .large-paragraph p {
+    width:80%;
+    margin: 0 10%;
+  }
+
+}
