@@ -54,8 +54,8 @@ div {
 .image img {
   max-height: 200px;
   max-width: 320px;
- /*  width: 100% !important; */
-  background: url('../img/placeholder_course.png');
+/*   width: 100% !important; */
+/*   background-color: red; */
   clear: both;
 }
 
@@ -64,12 +64,13 @@ div {
   background-color: burlywood;
   float: left;
 }
+/* Mobile Layout */
+@media (max-width:907px) {
 
-@media (max-width:863px) {
   .row {
     background-color: blue;
-    width: 80%;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 5%;
 }
 
 .small-paragraph {
@@ -80,15 +81,22 @@ div {
   text-align: center;
 }
   .image {
-    width: 80%;
-    margin: 0 10%;
+    float: left;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    vertical-align: -webkit-baseline-middle
   }
-  img {
-    width: 80%;
-    margin: 0 10%; 
+  .image img {
+    width: 100%;
+    margin: auto;
   }
+
   .large-paragraph {
-    width: 80%;
-    padding: 0 10%;
+    width: 90%;
+    padding: 0 5%;
   }
 }
+
+
