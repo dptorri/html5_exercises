@@ -20,7 +20,7 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-body, html {
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+.site-title
+{
+  width: 100%;
+}
 /* just styles */
 .nav_sup {
   background: #ff1;/* #fff */
@@ -146,7 +150,6 @@ body {
 #menudearriba {
   text-align: right;
   margin-top: 0;
-  width: 100%;
   padding: 10px;
   background: #afca0b;
 }
@@ -180,7 +183,7 @@ body {
 
 /* Logo */
 
-.home #heading .logos {
+/* .home #heading .logos {
   z-index: 998;
 }
 #heading .logos {
@@ -197,7 +200,7 @@ body {
   clear: both;
   overflow: hidden;
   margin-left: 200px;
-}
+} */
 
 /* bg_content navigation content */
 
@@ -214,79 +217,4 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 300px;
-}
-
-/* portlet */
-
-.row {
-  background-color: darkgreen;
-  width: 80%;
-  margin: 0 10%;
-}
-
-.small-paragraph {
-  width: 20%;
-  background-color: green;
-  float: left;
-  clear: both;
-}
-
-.image {
-  float: left;
-}
-
-.image img {
-  max-height: 200px;
-  max-width: 320px;
-  width: 100% !important;
-  background: url('../img/placeholder_course.png');
-  clear: both;
-}
-
-.large-paragraph {
-  width: 40%;
-  background-color: burlywood;
-  float: left;
-}
-
-@media (max-width: 1000px) {
-  .row {
-    width:100%;
-  }
-  .small-paragraph {
-    width:40%;
-  }
-  .image img{
-    width:40%;
-  }
-
-  .large-paragraph p {
-    width:%;
-    margin: 0 10%;
-  }
-}
-
-@media (max-width:600px) {
-  .row {
-    width:100%;
-    margin: 0;
-  }
-  .small-paragraph {
-    width:80%;
-    margin: 0 10%;
-  }
-  .image{
-    width:100%;
-    background-color: azure;
-  }
-  .image img{
-    width:80%;
-    margin: 0 20%;
-  }
-
-  .large-paragraph p {
-    width:80%;
-    margin: 0 10%;
-  }
-
 }
