@@ -35,7 +35,7 @@ div {
 .wrapper {
   margin:0;
   padding:0;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 #skip-to-content {
@@ -53,7 +53,7 @@ a {
 }
 /* just styles */
 .nav_sup {
-  background: #ff1;/* #fff */
+  background: white;/* #fff */
   height: 40px;
   width: 100%;
   margin: 0 auto;
@@ -75,12 +75,12 @@ a {
   float: right;
   clear: right;
 /*   padding: 5px 0; */
-  background-color: purple;
+  background-color: white;
 }
 
 
 body {
-  background-color: grey;
+  background-color: white;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -91,7 +91,7 @@ body {
   margin: 10px 20px 0 30px;
   font: bold 16px 'Myriad Pro',sans-serif;
   color: #009fe3;
-  background-color: ghostwhite
+  background-color: white
 }
 
 #sign-in {
