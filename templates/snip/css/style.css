@@ -62,12 +62,10 @@ div {
   background-color: burlywood;
   float: left;
 }
-/* Flexbox Alignment of squares */
-
-
+/* start Flexbox Alignment of squares */
 
 .red-square-container {
-  display: inline-flex;
+display: inline-flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
@@ -77,7 +75,7 @@ flex-wrap: wrap;
   height:200px;
   background-color:red;
 justify-content: space-evenly;
-margin: 0 5%;
+margin: 0 auto;
 }
 .blue-square {
   width:200px;
@@ -86,6 +84,14 @@ margin: 0 5%;
 justify-content: space-evenly;
 margin: 0 auto;
 }
+.purple-square {
+  width:200px;
+  height:200px;
+  background-color:purple;
+justify-content: space-evenly;
+margin: 0 auto;
+}
+/* End Flexbox Alignment of squares */
 
 /* Mobile Layout */
 @media (max-width:907px) {
@@ -121,25 +127,7 @@ margin: 0 auto;
     padding: 0 5%;
   }
 
-  .red-square-container {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
-    
-    .red-square {
-      width:200px;
-      height:200px;
-      background-color:red;
-    justify-content: space-around;
-    margin: 0 auto;
-    }
-    .blue-square {
-      width:200px;
-      height:200px;
-      background-color:yellow;
-    justify-content: space-around;
-    margin: 0 auto;
+
     }
     
 }
