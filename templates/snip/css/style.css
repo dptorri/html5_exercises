@@ -62,39 +62,82 @@ div {
   background-color: burlywood;
   float: left;
 }
+
+.thumb-container {
+  width: 300px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border: 1px solid red;
+  background-color: black; 
+
+  padding:10px;
+
+}
+.thumb-container img {
+  width:100%;
+}
+.thumb-container h4, p {
+  color: white;
+  padding: 0;
+  margin:0;
+}
+
+.thumb-go-link {
+  clear: both;
+}
+
+.thumb-go-link a {
+  font: bold 16px 'Myriad Pro',sans-serif;
+  padding: 7px 0;
+  background-color: #009fe3;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 /* start Flexbox Alignment of squares */
 
 .red-square-container {
-display: inline-flex;
-flex-direction: row;
-flex-wrap: wrap;
+display: flex;
+flex-flow: row wrap;
+width:80%;
 }
+
+.red-square-container:after {
+    content: "";
+    flex: auto;
+    margin:0 auto;
+  }
+
 
 .red-square {
   width:200px;
   height:200px;
   background-color:red;
-justify-content: space-evenly;
-margin: 0 auto;
+  justify-content: flex-start;
+  margin:auto;
 }
 .blue-square {
   width:200px;
   height:200px;
   background-color:yellow;
-justify-content: space-evenly;
-margin: 0 auto;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 .purple-square {
   width:200px;
   height:200px;
   background-color:purple;
-justify-content: space-evenly;
-margin: 0 auto;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 /* End Flexbox Alignment of squares */
 
 /* Mobile Layout */
-@media (max-width:907px) {
+@media (max-width:783px) {
 
   .row {
     background-color: blue;
@@ -126,10 +169,31 @@ margin: 0 auto;
     width: 90%;
     padding: 0 5%;
   }
+  .red-square-container {
+  width:100%;
+  justify-content: space-evenly!important;
+  }
 
+  .red-square-container:after {
+    content: "";
+    flex: auto;
+    margin:auto;
+  }
+
+}
+
+@media (max-width:600px) {
+  .red-square-container {
+    width:100%;
 
     }
+
+  .thumb-container {
+    width: 100%;
+  }
     
+
 }
+
 
 
